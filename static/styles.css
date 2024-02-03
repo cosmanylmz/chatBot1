@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://img.freepik.com/premium-photo/robot-with-laptop-message-it_579873-1234.jpg?w=826);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: #dedede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chat-container {
+  width: 620px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+  background-color: #a5b1c2;
+  border-radius: 8px;
+  position: relative;
+}
+
+.message-container {
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.user-message {
+  margin-left: auto;
+  background-color: aquamarine;
+  color: black;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 10px;
+  clear: both;
+}
+
+.bot-message {
+  background-color: #d1d8e0c5;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 15px;
+  margin: 5px;
+  float: right;
+  clear: both;
+}
+
+form {
+  margin: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+input[type="text"] {
+  flex: 1;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  font-size: 18px;
+  background-color: #a5b1c2;
+  color: black;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+button {
+  width: 100%; /* Değişiklik: Button'ın genişliğini %100 yap */
+  height: 40px; /* Değişiklik: Yükseklik ekleyerek sığmasını sağla */
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: azure;
+  color: rgb(20, 13, 13);
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px; /* Değişiklik: Buton ile input arasında boşluk bırak */
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: rgb(121, 134, 134);
+}

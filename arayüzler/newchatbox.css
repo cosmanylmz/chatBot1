@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  
+}
+
+body {
+    width:1000px ;
+    background: #262626 url(https://digwallpapers.com/wallpapers/full/3/3/0/90800-1920x1092-robot-wallpaper-photo-desktop-hd.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.xxx {
+    width: 800px; 
+    height: 73vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    background-color: #a5b1c2;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-left: 160px; /* margin-left değerine 'px' birimini ekledim */
+}
+
+#response {
+    overflow-y: auto;
+}
+#cikis-container {
+    margin-top: 15px;
+    margin-left: 560px;
+    background: white;
+    width: 38px;
+    height: 38px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+#cikis {
+    font-size: 25px;
+    color: black; 
+}
+
+.header{
+    display: flex;
+}
+
+.header h1 {
+    color: rgb(183, 212, 18);
+    padding: 15px;
+}
+
+.body {
+    flex: 1;
+    color: rgb(133, 130, 130);
+    background-color: #778ca3;
+    padding: 20px 30px;
+}
+.body h6 {
+    font-size: 18px;
+    color: red;
+}
+
+
+.form-label {
+    margin-right: 10px;
+}
+
+.footer {
+    display: flex;
+}
+
+.framed-input {
+    border: 2px solid white;
+    padding: 8px;
+    width: calc(100% - 42px);
+}
+
+.footer-input {
+    display: flex;
+    width: 770px;
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 18px;
+    background-color: #a5b1c2;
+    color: black;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.btn-primary {
+    height: 40px;
+}
+
+.footer button {
+    width: 70px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: azure;
+    color: rgb(20, 13, 13);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.footer button:hover {
+    background-color: rgb(121, 134, 134);
+    transition: 0.2s ease;
+}
